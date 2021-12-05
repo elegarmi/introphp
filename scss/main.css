@@ -1,0 +1,246 @@
+body {
+  font-family: "Roboto", sans-serif !important;
+  font-size: 16px !important;
+}
+
+body {
+  left: 0;
+  top: 0;
+  width: 100%;
+}
+
+header {
+  text-align: center;
+}
+
+header img {
+  margin: 2rem;
+  max-height: 6rem;
+}
+
+header nav {
+  margin: 0 auto;
+  padding: 0;
+}
+
+main {
+  line-height: 1.5;
+  margin: 4rem auto;
+  max-width: 80%;
+}
+
+main h1 {
+  text-align: center;
+  font-size: 3rem;
+  margin: 4rem;
+}
+
+main h2 {
+  font-size: 2.5rem;
+  margin: 4rem 0 0.5rem 0;
+}
+
+main h4 {
+  font-size: 1.5rem;
+  margin: 1.5rem 0 0.5rem 0;
+}
+
+footer {
+  background: #000000;
+  color: #ffffff;
+  text-align: center;
+  margin-top: 4rem !important;
+  padding: 1.5rem !important;
+  width: 100%;
+}
+
+footer a, footer a:hover, footer a:visited, footer a:link {
+  color: #ffffff;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+input:focus, select:focus, .btn:focus {
+  -webkit-box-shadow: 0 0 0 0.25rem rgba(115, 119, 173, 0.8) !important;
+          box-shadow: 0 0 0 0.25rem rgba(115, 119, 173, 0.8) !important;
+}
+
+b, strong {
+  font-weight: bolder !important;
+}
+
+th {
+  font-weight: bold !important;
+  text-transform: uppercase;
+  letter-spacing: 0.08rem;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #5056aa;
+  border-color: #5056aa;
+}
+
+.btn-primary:hover {
+  background-color: #7377AD;
+  border-color: #7377AD;
+}
+
+.form-check-input:checked {
+  background-color: #5056aa;
+  border-color: #5056aa;
+}
+
+nav {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#5056aa), color-stop(#7377AD), to(#5056aa));
+  background-image: linear-gradient(#5056aa, #7377AD, #5056aa);
+  letter-spacing: 0.06rem;
+  padding: 1.5rem;
+  -webkit-box-shadow: 1px 2px 1px #000000;
+          box-shadow: 1px 2px 1px #000000;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav ul li {
+  display: inline-block;
+  color: #ffffff;
+  padding: 1.5rem;
+  border-right: 2px solid #5056aa;
+}
+
+nav ul li:first-child {
+  border-left: 2px solid #5056aa;
+}
+
+nav ul li:active {
+  background-image: #5056aa;
+  -webkit-box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5) inset;
+          box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5) inset;
+}
+
+nav ul li a, nav ul li a:link, nav ul li a:visited {
+  color: #ffffff;
+  font-weight: bold;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+main .accordion h4 {
+  color: #5056aa;
+  margin: 0rem 0 0.5rem 0;
+}
+
+main .accordion ul {
+  list-style-type: disc;
+  padding-left: 1rem;
+}
+
+main .accordion .accordion-header {
+  margin: 0;
+}
+
+main .accordion .accordion-button:not(.collapsed)::after {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%235056aa'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+}
+
+main .accordion .accordion-button:not(.collapsed) {
+  background-color: rgba(115, 119, 173, 0.2);
+  color: #7377AD;
+  font-weight: bold;
+}
+
+main .accordion .accordion-button:focus {
+  border-color: rgba(115, 119, 173, 0.6);
+  -webkit-box-shadow: 0 0 0 0.25rem rgba(115, 119, 173, 0.8);
+          box-shadow: 0 0 0 0.25rem rgba(115, 119, 173, 0.8);
+}
+
+main .highlight {
+  padding: 1rem;
+  margin: 1rem 0;
+  background-color: #f8f9fa;
+}
+
+main .card-title {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+main .card-img {
+  max-height: 20rem;
+  overflow: hidden;
+}
+
+main .col-sm-6.col-md-3.col-lg-3 {
+  margin: 1rem 0;
+}
+
+#home main ul {
+  list-style-type: disc;
+}
+
+#home main ol {
+  list-style-type: decimal;
+}
+
+#home main ul, #home main ol {
+  padding: 1rem;
+}
+
+#welcome, #array {
+  text-align: center;
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,53 @@
+body {
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+
+header {
+    text-align: center;
+
+    img {
+        margin: 2rem;
+        max-height: 6rem;
+    }
+
+    nav {
+        margin: 0 auto;
+        padding: 0;
+    }
+}
+
+main {
+    line-height: 1.5;
+    margin: 4rem auto;
+    max-width: 80%;
+
+    h1{
+        text-align: center;
+        @include titleStyles(3rem, 4rem)
+    }
+
+    h2 {
+        @include titleStyles(2.5rem, 4rem 0 0.5rem 0);
+    }
+
+    h4 {
+        @include titleStyles(1.5rem, 1.5rem 0 0.5rem 0)
+    }
+}
+
+footer {
+    background: $first-color;
+    color: $second-color;
+    text-align: center;
+    margin-top: 4rem !important;
+    padding: 1.5rem !important;
+    width: 100%;
+
+    a, a:hover, a:visited, a:link {
+        color: $second-color;
+        font-weight: bold;
+        text-decoration: none;
+    }
+}
